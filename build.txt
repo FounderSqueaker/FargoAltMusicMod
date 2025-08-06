@@ -2,4 +2,4 @@ displayName = Javyz' Fargo Music DLC
 author = Javyz
 version = 1.5.3.2
 side = Client
-weakReferences  = FargowiltasSouls@1.7
+weakReference = FargowiltasSouls@1.7

@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\OneDrive\\Dokument\\My Games\\Terraria\\tModLoader\\ModSources\\FargoAltMusicMod\\",
+  "WorkspaceRootPath": "C:\\Users\\tiger\\source\\repos\\FounderSqueaker\\FargoAltMusicMod\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|D:\\OneDrive\\Dokument\\My Games\\Terraria\\tModLoader\\ModSources\\FargoAltMusicMod\\description.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|solutionrelative:description.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|d:\\onedrive\\dokument\\my games\\terraria\\tmodloader\\modsources\\fargoaltmusicmod\\build.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|solutionrelative:build.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|D:\\OneDrive\\Dokument\\My Games\\Terraria\\tModLoader\\ModSources\\FargoAltMusicMod\\altmusicsceneeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|c:\\users\\tiger\\source\\repos\\foundersqueaker\\fargoaltmusicmod\\altmusicsceneeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|solutionrelative:altmusicsceneeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|D:\\OneDrive\\Dokument\\My Games\\Terraria\\tModLoader\\ModSources\\FargoAltMusicMod\\fargoaltmusicmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|c:\\users\\tiger\\source\\repos\\foundersqueaker\\fargoaltmusicmod\\description.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|solutionrelative:description.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|c:\\users\\tiger\\source\\repos\\foundersqueaker\\fargoaltmusicmod\\fargoaltmusicmod.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|solutionrelative:fargoaltmusicmod.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|c:\\users\\tiger\\source\\repos\\foundersqueaker\\fargoaltmusicmod\\fargoaltmusicmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|solutionrelative:fargoaltmusicmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|D:\\OneDrive\\Dokument\\My Games\\Terraria\\tModLoader\\ModSources\\FargoAltMusicMod\\musicconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|c:\\users\\tiger\\source\\repos\\foundersqueaker\\fargoaltmusicmod\\musicconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|solutionrelative:musicconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|D:\\OneDrive\\Dokument\\My Games\\Terraria\\tModLoader\\ModSources\\FargoAltMusicMod\\localization\\en-us_mods.fargoaltmusicmod.hjson||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|c:\\users\\tiger\\source\\repos\\foundersqueaker\\fargoaltmusicmod\\localization\\en-us_mods.fargoaltmusicmod.hjson||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|solutionrelative:localization\\en-us_mods.fargoaltmusicmod.hjson||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -33,16 +33,16 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 759,
+          "DockedWidth": 200,
           "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
@@ -73,27 +73,44 @@
               "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "build.txt",
-              "DocumentMoniker": "D:\\OneDrive\\Dokument\\My Games\\Terraria\\tModLoader\\ModSources\\FargoAltMusicMod\\build.txt",
-              "RelativeDocumentMoniker": "build.txt",
-              "ToolTip": "D:\\OneDrive\\Dokument\\My Games\\Terraria\\tModLoader\\ModSources\\FargoAltMusicMod\\build.txt",
-              "RelativeToolTip": "build.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-02-15T20:38:16.097Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AltMusicSceneEffect.cs",
+              "DocumentMoniker": "C:\\Users\\tiger\\source\\repos\\FounderSqueaker\\FargoAltMusicMod\\AltMusicSceneEffect.cs",
+              "RelativeDocumentMoniker": "AltMusicSceneEffect.cs",
+              "ToolTip": "C:\\Users\\tiger\\source\\repos\\FounderSqueaker\\FargoAltMusicMod\\AltMusicSceneEffect.cs",
+              "RelativeToolTip": "AltMusicSceneEffect.cs",
+              "ViewState": "AgIAAO0DAAAAAAAAAAAYwA0EAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-01-31T13:11:42.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FargoAltMusicMod.csproj",
+              "DocumentMoniker": "C:\\Users\\tiger\\source\\repos\\FounderSqueaker\\FargoAltMusicMod\\FargoAltMusicMod.csproj",
+              "RelativeDocumentMoniker": "FargoAltMusicMod.csproj",
+              "ToolTip": "C:\\Users\\tiger\\source\\repos\\FounderSqueaker\\FargoAltMusicMod\\FargoAltMusicMod.csproj",
+              "RelativeToolTip": "FargoAltMusicMod.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-19T01:04:49.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "description.txt",
-              "DocumentMoniker": "D:\\OneDrive\\Dokument\\My Games\\Terraria\\tModLoader\\ModSources\\FargoAltMusicMod\\description.txt",
+              "DocumentMoniker": "C:\\Users\\tiger\\source\\repos\\FounderSqueaker\\FargoAltMusicMod\\description.txt",
               "RelativeDocumentMoniker": "description.txt",
-              "ToolTip": "D:\\OneDrive\\Dokument\\My Games\\Terraria\\tModLoader\\ModSources\\FargoAltMusicMod\\description.txt",
+              "ToolTip": "C:\\Users\\tiger\\source\\repos\\FounderSqueaker\\FargoAltMusicMod\\description.txt",
               "RelativeToolTip": "description.txt",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAXAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2023-01-31T12:30:20.745Z",
               "EditorCaption": ""
@@ -102,59 +119,40 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "en-US_Mods.FargoAltMusicMod.hjson",
-              "DocumentMoniker": "D:\\OneDrive\\Dokument\\My Games\\Terraria\\tModLoader\\ModSources\\FargoAltMusicMod\\Localization\\en-US_Mods.FargoAltMusicMod.hjson",
+              "DocumentMoniker": "C:\\Users\\tiger\\source\\repos\\FounderSqueaker\\FargoAltMusicMod\\Localization\\en-US_Mods.FargoAltMusicMod.hjson",
               "RelativeDocumentMoniker": "Localization\\en-US_Mods.FargoAltMusicMod.hjson",
-              "ToolTip": "D:\\OneDrive\\Dokument\\My Games\\Terraria\\tModLoader\\ModSources\\FargoAltMusicMod\\Localization\\en-US_Mods.FargoAltMusicMod.hjson",
+              "ToolTip": "C:\\Users\\tiger\\source\\repos\\FounderSqueaker\\FargoAltMusicMod\\Localization\\en-US_Mods.FargoAltMusicMod.hjson",
               "RelativeToolTip": "Localization\\en-US_Mods.FargoAltMusicMod.hjson",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAD8AAAA1AAAA",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvxYAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2023-11-01T02:04:24.918Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AltMusicSceneEffect.cs",
-              "DocumentMoniker": "D:\\OneDrive\\Dokument\\My Games\\Terraria\\tModLoader\\ModSources\\FargoAltMusicMod\\AltMusicSceneEffect.cs",
-              "RelativeDocumentMoniker": "AltMusicSceneEffect.cs",
-              "ToolTip": "D:\\OneDrive\\Dokument\\My Games\\Terraria\\tModLoader\\ModSources\\FargoAltMusicMod\\AltMusicSceneEffect.cs",
-              "RelativeToolTip": "AltMusicSceneEffect.cs",
-              "ViewState": "AQIAAMgEAAAAAAAAAAAgwNkEAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-01-31T13:11:42.011Z"
+              "WhenOpened": "2023-11-01T02:04:24.918Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "MusicConfig.cs",
-              "DocumentMoniker": "D:\\OneDrive\\Dokument\\My Games\\Terraria\\tModLoader\\ModSources\\FargoAltMusicMod\\MusicConfig.cs",
+              "DocumentMoniker": "C:\\Users\\tiger\\source\\repos\\FounderSqueaker\\FargoAltMusicMod\\MusicConfig.cs",
               "RelativeDocumentMoniker": "MusicConfig.cs",
-              "ToolTip": "D:\\OneDrive\\Dokument\\My Games\\Terraria\\tModLoader\\ModSources\\FargoAltMusicMod\\MusicConfig.cs",
+              "ToolTip": "C:\\Users\\tiger\\source\\repos\\FounderSqueaker\\FargoAltMusicMod\\MusicConfig.cs",
               "RelativeToolTip": "MusicConfig.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAAACoAAAAAAAAA",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAEAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-08-27T13:08:32.317Z"
+              "WhenOpened": "2023-08-27T13:08:32.317Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "FargoAltMusicMod.cs",
-              "DocumentMoniker": "D:\\OneDrive\\Dokument\\My Games\\Terraria\\tModLoader\\ModSources\\FargoAltMusicMod\\FargoAltMusicMod.cs",
+              "DocumentMoniker": "C:\\Users\\tiger\\source\\repos\\FounderSqueaker\\FargoAltMusicMod\\FargoAltMusicMod.cs",
               "RelativeDocumentMoniker": "FargoAltMusicMod.cs",
-              "ToolTip": "D:\\OneDrive\\Dokument\\My Games\\Terraria\\tModLoader\\ModSources\\FargoAltMusicMod\\FargoAltMusicMod.cs",
+              "ToolTip": "C:\\Users\\tiger\\source\\repos\\FounderSqueaker\\FargoAltMusicMod\\FargoAltMusicMod.cs",
               "RelativeToolTip": "FargoAltMusicMod.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-01-31T12:29:09.444Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 217,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2023-01-31T12:29:09.444Z",
+              "EditorCaption": ""
             }
           ]
         }

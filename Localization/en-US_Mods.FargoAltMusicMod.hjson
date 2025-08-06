@@ -9,6 +9,11 @@ Configs: {
 			Bosses: Bosses
 		}
 
+		CursedCoffin: {
+			Label: Cursed Coffin
+			Tooltip: ""
+		}
+
 		Lieflight: {
 			Label: Lifelight
 			Tooltip: ""
@@ -66,7 +71,7 @@ Configs: {
 
 		Mutant: {
 			Label: Mutant
-			Tooltip: ""
+			Tooltip: Determines which theme Mutant uses.
 		}
 
 		EyeOfCthulhu: {
@@ -82,6 +87,11 @@ Configs: {
 		MechBosses: {
 			Tooltip: Determines which theme the Mech Bosses use.
 			Label: Mech Bosses
+		}
+
+		Destroyer: {
+			Label: The Destroyer
+			Tooltip: Determines whether to override the theme for The Destroyer or not.
 		}
 
 		QueenBee: {
@@ -246,6 +256,11 @@ Configs: {
 
 		Temple: {
 			Label: Temple
+			Tooltip: ""
+		}
+
+		Twins: {
+			Label: Twins
 			Tooltip: ""
 		}
 	}

@@ -23,6 +23,9 @@ namespace FargoAltMusicMod
         public bool EyeOfCthulhu;
 
         [DefaultValue(true)]
+        public bool CursedCoffin;
+
+        [DefaultValue(true)]
         public bool BrainOfCthulhu;
 
         [DefaultValue(true)]
@@ -41,15 +44,31 @@ namespace FargoAltMusicMod
         public bool Baron;
 
         [DrawTicks]
-        [OptionStrings(new string[] { "Default", "War Without Reason", "Red Sun", "Red Sun (Instrumental)" })]
+        [OptionStrings(new string[] { "Default", "War Without Reason", "Red Sun", "Red Sun (Instrumental)", "Technoir" })]
         [DefaultValue("War Without Reason")]
         public string MechBosses;
+
+        [DrawTicks]
+        [OptionStrings(new string[] { "Sync With Mech Bosses", "The Lost Dedicated", "Turf" })]
+        [DefaultValue("Sync With Mech Bosses")]
+        public string Destroyer;
+
+        [DrawTicks]
+        [OptionStrings(new string[] { "Sync With Mech Bosses", "Sexualizer" })]
+        [DefaultValue("Sync With Mech Bosses")]
+        public string Twins;
+
+
+        [DrawTicks]
+        [OptionStrings(new string[] { "Sync With Mech Bosses", "Pursuit" })]
+        [DefaultValue("Sync With Mech Bosses")]
+        public string SkeletronPrime;
 
         [DefaultValue(false)]
         public bool Lieflight;
 
         [DrawTicks]
-        [OptionStrings(new string[] { "Default", "God of the Dead", "AFTERLIFE" })]
+        [OptionStrings(new string[] { "Default", "God of the Dead", "AFTERLIFE", "Cowboys From Hell" })]
         [DefaultValue("God of the Dead")]
         public string Plantera;
 
@@ -78,8 +97,10 @@ namespace FargoAltMusicMod
         [DefaultValue("Default")]
         public string Abom;
 
-        [DefaultValue(false)]
-        public bool Mutant;
+        [DrawTicks]
+        [OptionStrings(new string[] { "Default", "ORDER", "Roller Mobster" })]
+        [DefaultValue("Default")]
+        public string Mutant;
 
         [Header("Events")]
 

@@ -10,6 +10,7 @@ using Microsoft.Xna.Framework;
 using Terraria.GameContent.Events;
 using static Terraria.Main;
 using Microsoft.CodeAnalysis;
+using System.Runtime.CompilerServices;
 
 namespace FargoAltMusicMod
 {
@@ -51,7 +52,7 @@ namespace FargoAltMusicMod
                 return null;
             return FindClosestBoss(Souls.Find<ModNPC>(name).Type);
         }
-        
+
         public static bool ZoneShallow(this Player player) => player.ZoneDirtLayerHeight || player.ZoneOverworldHeight;
 
         public static bool ZoneUnderground(this Player player) => player.ZoneDirtLayerHeight || player.ZoneRockLayerHeight;
@@ -72,7 +73,7 @@ namespace FargoAltMusicMod
             int stardust = NPC.CountNPCS(NPCID.LunarTowerStardust);
             return solar + vortex + nebula + stardust;
         }
-        
+
     }
 
     public class VanillaMusic : ModSystem
@@ -665,7 +666,7 @@ namespace FargoAltMusicMod
                                 break;
                             case 1:
                                 ugMusicHolder = 31;
-                               // musicFade[4] = 0f;
+                                // musicFade[4] = 0f;
                                 break;
                         }
                     }
@@ -896,6 +897,22 @@ namespace FargoAltMusicMod
             return false;
         }
     }
+
+    class CoffinCrash : MusicEffect
+    {
+        public override SceneEffectPriority Priority => SceneEffectPriority.BossMedium;
+        public override string MusicName => "SandCastleCrashing";
+        public override bool Config => MusicConfig.Instance.CursedCoffin;
+        public override bool Active(Player player)
+        {
+            NPC npc = MusicUtils.FindClosestSoulsBoss("CursedCoffin");
+            if (npc != null)
+            {
+                return true;
+            }
+            return false;
+        }
+    }
     class MoonManMithrix : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossHigh;
@@ -981,8 +998,37 @@ namespace FargoAltMusicMod
     class MutantPrime : MusicEffect
     {
         public override SceneEffectPriority Priority => (SceneEffectPriority)9;
-        public override string MusicName => "ORDER";
-        public override bool Config => MusicConfig.Instance.Mutant;
+        public override string MusicName => MusicConfig.Instance.Mutant switch
+        {
+            "ORDER" => "ORDER",
+            "Roller Mobster" => RollerMobster(),
+            _ => "",
+        };
+        public static bool hasEnteredSecondPhase = false;
+        public static bool hasEnteredThirdPhase = false;
+
+        public static string RollerMobster()
+        {
+            NPC npc = MusicUtils.FindClosestSoulsBoss("MutantBoss");
+            if (npc != null)
+            {
+                if (!hasEnteredSecondPhase && npc.GetLifePercent() <= (2f / 3))
+                    hasEnteredSecondPhase = true;
+
+                if (!hasEnteredThirdPhase && npc.life <= 1)
+                    hasEnteredThirdPhase = true;
+
+                if (hasEnteredThirdPhase)
+                    return "RollerMobsterP3";
+                if (hasEnteredSecondPhase)
+                    return "RollerMobsterP2";
+
+                return "RollerMobsterPA";
+                
+            }
+            return "";
+        }
+        public override bool Config => MusicConfig.Instance.Mutant != "Default";
         public override bool Active(Player player)
         {
             NPC npc = MusicUtils.FindClosestSoulsBoss("MutantBoss");
@@ -1128,6 +1174,125 @@ namespace FargoAltMusicMod
             return false;
         }
     }
+    class Destroyer : MusicEffect
+    {
+        public override SceneEffectPriority Priority => SceneEffectPriority.BossHigh;
+        public override string MusicName => MusicConfig.Instance.Destroyer switch
+        {
+            "Sync With Mech Bosses" => MechSun.WarWithoutReason(),
+            "The Lost Dedicated" => "TheLostDedicated",
+            "Turf" => "Turf",
+            _ => "",
+        };
+        public override bool Config => MusicConfig.Instance.Destroyer != "Sync With Mech Bosses";
+        public override bool Active(Player player)
+        {
+            NPC npc = MusicUtils.FindClosestBoss(NPCID.TheDestroyer);
+            if (MusicConfig.Instance.MechBosses == "Default")
+            {
+                return MusicUtils.FindClosestBoss(NPCID.TheDestroyer) != null;
+            }
+
+            else if (MusicConfig.Instance.MechBosses == "War Without Reason")
+            {
+                return MusicUtils.FindClosestBoss(NPCID.TheDestroyer) != null;
+            }
+
+            else if (MusicConfig.Instance.MechBosses == "Red Sun")
+            {
+                return MusicUtils.FindClosestBoss(NPCID.TheDestroyer) != null;
+            }
+
+            else if (MusicConfig.Instance.MechBosses == "Red Sun (Instrumental)")
+            {
+                return MusicUtils.FindClosestBoss(NPCID.TheDestroyer) != null;
+            }
+            else if (MusicConfig.Instance.MechBosses == "Technoir")
+            {
+                return MusicUtils.FindClosestBoss(NPCID.TheDestroyer) != null;
+            }
+            return false;
+        }
+    }
+
+    class Twins : MusicEffect
+    {
+        public override SceneEffectPriority Priority => SceneEffectPriority.BossHigh;
+        public override string MusicName => MusicConfig.Instance.Twins switch
+        {
+            "Sync With Mech Bosses" => MechSun.WarWithoutReason(),
+            "Sexualizer" => "Sexualizer",
+            _ => "",
+        };
+        public override bool Config => MusicConfig.Instance.Twins != "Sync With Mech Bosses";
+        public override bool Active(Player player)
+        {
+            if (MusicConfig.Instance.MechBosses == "Default")
+            {
+                return MusicUtils.FindClosestBoss(NPCID.Retinazer) != null || MusicUtils.FindClosestBoss(NPCID.Spazmatism) != null;
+            }
+
+            else if (MusicConfig.Instance.MechBosses == "War Without Reason")
+            {
+                return MusicUtils.FindClosestBoss(NPCID.Retinazer) != null || MusicUtils.FindClosestBoss(NPCID.Spazmatism) != null;
+            }
+
+            else if (MusicConfig.Instance.MechBosses == "Red Sun")
+            {
+                return MusicUtils.FindClosestBoss(NPCID.Retinazer) != null || MusicUtils.FindClosestBoss(NPCID.Spazmatism) != null;
+            }
+
+            else if (MusicConfig.Instance.MechBosses == "Red Sun (Instrumental)")
+            {
+                return MusicUtils.FindClosestBoss(NPCID.Retinazer) != null || MusicUtils.FindClosestBoss(NPCID.Spazmatism) != null;
+            }
+            else if (MusicConfig.Instance.MechBosses == "Technoir")
+            {
+                return MusicUtils.FindClosestBoss(NPCID.Retinazer) != null || MusicUtils.FindClosestBoss(NPCID.Spazmatism) != null;
+            }
+            return false;
+        }
+    }
+
+    class SPrime: MusicEffect
+    {
+        public override SceneEffectPriority Priority => SceneEffectPriority.BossHigh;
+        public override string MusicName => MusicConfig.Instance.SkeletronPrime switch
+        {
+            "Sync With Mech Bosses" => MechSun.WarWithoutReason(),
+            "Pursuit" => "Pursuit",
+            _ => "",
+        };
+        public override bool Config => MusicConfig.Instance.SkeletronPrime != "Sync With Mech Bosses";
+        public override bool Active(Player player)
+        {
+            if (MusicConfig.Instance.MechBosses == "Default")
+            {
+                return MusicUtils.FindClosestBoss(NPCID.SkeletronPrime) != null;
+            }
+
+            else if (MusicConfig.Instance.MechBosses == "War Without Reason")
+            {
+                return MusicUtils.FindClosestBoss(NPCID.SkeletronPrime) != null;
+            }
+
+            else if (MusicConfig.Instance.MechBosses == "Red Sun")
+            {
+                return MusicUtils.FindClosestBoss(NPCID.SkeletronPrime) != null;
+            }
+
+            else if (MusicConfig.Instance.MechBosses == "Red Sun (Instrumental)")
+            {
+                return MusicUtils.FindClosestBoss(NPCID.SkeletronPrime) != null;
+            }
+            else if (MusicConfig.Instance.MechBosses == "Technoir")
+            {
+                return MusicUtils.FindClosestBoss(NPCID.SkeletronPrime) != null;
+            }
+            return false;
+        }
+    }
+
     class MechSun : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossMedium;
@@ -1136,6 +1301,7 @@ namespace FargoAltMusicMod
             "War Without Reason" => WarWithoutReason(),
             "Red Sun" => "RedSunVocal",
             "Red Sun (Instrumental)" => "RedSunInstrumental",
+            "Technoir" => "Technoir",
             _ => "",
         };
 
@@ -1183,6 +1349,7 @@ namespace FargoAltMusicMod
         {
             "God of the Dead" => "GodOfTheDeadP1",
             "AFTERLIFE" => "SpecimenMechanical",
+            "Cowboys From Hell" => "CowboysFromHell",
             _ => "",
         };
         public override bool Config => MusicConfig.Instance.Plantera != "Default";
@@ -1204,6 +1371,7 @@ namespace FargoAltMusicMod
         {
             "God of the Dead" => Hades(),
             "AFTERLIFE" => "AFTERLIFE",
+            "Cowboys From Hell" => "CowboysFromHell",
             _ => "",
         };
         public static string Hades()
