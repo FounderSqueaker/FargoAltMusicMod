@@ -263,5 +263,10 @@ Configs: {
 			Label: Twins
 			Tooltip: ""
 		}
+
+		Cultist: {
+			Label: Cultist
+			Tooltip: ""
+		}
 	}
 }

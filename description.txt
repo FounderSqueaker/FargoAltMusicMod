@@ -18,14 +18,15 @@ The following themes are replaced:
 -Golem (Halls of Sacrilegious Remains)
 -Duke Fishron (Deep Blue - Combat)
 -Empress of Light (Death of God's Will or A Mother's Love, depending on config)
--Moon Lord (You're Gonna Need a Bigger Ukulele)
+-Lunatic Cultist (SPAWN)
+-Moon Lord (You're Gonna Need a Bigger Ukulele, GUARDIAN)
 -Eridanus (Tenebre Rosso Sangue)
 -Abominationn (Stigma, WAR)
 -Mutant (ORDER)
 
 -Rain (Cyclogenesis)
 -Sandstorm (Sands of Tide Combat)
--Lunar Pillar event (Coalescence, con lentitud poderosa)
+-Lunar Pillar event (Coalescence, con lentitud poderosa, Crumbling Tower)
 
 -Town (My Castle Town)
 -Forest (Scarlet Forest)
@@ -48,6 +49,14 @@ The following themes are replaced:
 -Dungeon (Mirror Temple: Mirror Magic Mix)
 -Temple (Castle Vein)
 -Underworld (Altars of Apostasy)
+
+VERSION 1.6
+-Added new music:
+--SPAWN (Deltarune chapter 4, Lunatic Cultist)
+--Crumbling Tower (Deltarune chapter 4, Lunatic Pillars)
+--GUARDIAN (Deltarune chapter 4, Moon Lord)
+
+-Normalized the volume of all tracks to be similar to vanilla music volume
 
 VERSION 1.5.3
 -No longer strictly dependent on Fargo's Souls Mod or requires Eternity Mode

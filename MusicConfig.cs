@@ -44,23 +44,23 @@ namespace FargoAltMusicMod
         public bool Baron;
 
         [DrawTicks]
-        [OptionStrings(new string[] { "Default", "War Without Reason", "Red Sun", "Red Sun (Instrumental)", "Technoir" })]
+        [OptionStrings(["Default", "War Without Reason", "Red Sun", "Red Sun (Instrumental)", "Technoir"])]
         [DefaultValue("War Without Reason")]
         public string MechBosses;
 
         [DrawTicks]
-        [OptionStrings(new string[] { "Sync With Mech Bosses", "The Lost Dedicated", "Turf" })]
+        [OptionStrings(["Sync With Mech Bosses", "The Lost Dedicated", "Turf"])]
         [DefaultValue("Sync With Mech Bosses")]
         public string Destroyer;
 
         [DrawTicks]
-        [OptionStrings(new string[] { "Sync With Mech Bosses", "Sexualizer" })]
+        [OptionStrings(["Sync With Mech Bosses", "Sexualizer" ])]
         [DefaultValue("Sync With Mech Bosses")]
         public string Twins;
 
 
         [DrawTicks]
-        [OptionStrings(new string[] { "Sync With Mech Bosses", "Pursuit" })]
+        [OptionStrings(["Sync With Mech Bosses", "Pursuit" ])]
         [DefaultValue("Sync With Mech Bosses")]
         public string SkeletronPrime;
 
@@ -68,7 +68,7 @@ namespace FargoAltMusicMod
         public bool Lieflight;
 
         [DrawTicks]
-        [OptionStrings(new string[] { "Default", "God of the Dead", "AFTERLIFE", "Cowboys From Hell" })]
+        [OptionStrings(["Default", "God of the Dead", "AFTERLIFE", "Cowboys From Hell" ])]
         [DefaultValue("God of the Dead")]
         public string Plantera;
 
@@ -82,23 +82,28 @@ namespace FargoAltMusicMod
         public bool DukeFishron;
 
         [DrawTicks]
-        [OptionStrings(new string[] { "Default", "A Mother's Love", "Death of God's Will", "Border of Life" })]
+        [OptionStrings(["Default", "A Mother's Love", "Death of God's Will", "Border of Life" ])]
         [DefaultValue("A Mother's Love")]
         public string EmpressOfLight;
 
         [DefaultValue(true)]
-        public bool MoonLord;
+        public bool Cultist;
+
+        [DrawTicks]
+        [OptionStrings(["Default", "Bigger Guitar", "GUARDIAN"])]
+        [DefaultValue("GUARDIAN")]
+        public string MoonLord;
 
         [DefaultValue(false)]
         public bool Eridanus;
 
         [DrawTicks]
-        [OptionStrings(new string[] { "Default", "WAR", "Stigma" })]
+        [OptionStrings(["Default", "WAR", "Stigma" ])]
         [DefaultValue("Default")]
         public string Abom;
 
         [DrawTicks]
-        [OptionStrings(new string[] { "Default", "ORDER", "Roller Mobster" })]
+        [OptionStrings(["Default", "ORDER", "Roller Mobster" ])]
         [DefaultValue("Default")]
         public string Mutant;
 
@@ -113,8 +118,10 @@ namespace FargoAltMusicMod
         [DefaultValue(true)]
         public bool Blizzard;
 
-        [DefaultValue(true)]
-        public bool LunarPillars;
+        [DrawTicks]
+        [OptionStrings(["Default", "Coalescence/con lentitud poderosa", "Crumbling Tower"])]
+        [DefaultValue("Crumbling Tower")]
+        public string LunarPillars;
 
         [Header("Biomes")]
 
