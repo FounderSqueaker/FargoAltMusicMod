@@ -897,6 +897,38 @@ namespace FargoAltMusicMod
             return false;
         }
     }
+
+    class SkeletronDecadence : MusicEffect
+    {
+        public override SceneEffectPriority Priority => SceneEffectPriority.BossMedium;
+        public override string MusicName => "DecadeDance";
+        public override bool Config => MusicConfig.Instance.Skeletron;
+        public override bool Active(Player player)
+        {
+            NPC npc = MusicUtils.FindClosestBoss(NPCID.SkeletronHead);
+            if (npc != null)
+            {
+                return true;
+            }
+            return false;
+        }
+    }
+
+    class DungeonFahk : MusicEffect
+    {
+        public override SceneEffectPriority Priority => SceneEffectPriority.BossMedium;
+        public override string MusicName => "Fahkeet";
+        public override bool Config => MusicConfig.Instance.DungeonGuardian;
+        public override bool Active(Player player)
+        {
+            NPC npc = MusicUtils.FindClosestBoss(NPCID.DungeonGuardian);
+            if (npc != null)
+            {
+                return true;
+            }
+            return false;
+        }
+    }
     class Cultist : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossLow;
@@ -919,6 +951,8 @@ namespace FargoAltMusicMod
         public override bool Config => MusicConfig.Instance.CursedCoffin;
         public override bool Active(Player player)
         {
+            if (MusicUtils.Souls == null || MusicUtils.Souls.Version < Version.Parse("1.7"))
+                return false;
             NPC npc = MusicUtils.FindClosestSoulsBoss("CursedCoffin");
             if (npc != null)
             {
@@ -1455,8 +1489,13 @@ namespace FargoAltMusicMod
     class DeepFishron : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossLow;
-        public override string MusicName => "DeepBlueCombat";
-        public override bool Config => MusicConfig.Instance.DukeFishron;
+        public override string MusicName => MusicConfig.Instance.DukeFishron switch
+            {
+            "Deep Blue Combat" => "DeepBlueCombat",
+            "Vengeance" => "Vengeance",
+            _ => "",
+        };
+        public override bool Config => MusicConfig.Instance.DukeFishron != "Default";
         public override bool Active(Player player)
         {
             NPC npc = MusicUtils.FindClosestBoss(NPCID.DukeFishron);

@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\tiger\\source\\repos\\FounderSqueaker\\FargoAltMusicMod\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|c:\\users\\tiger\\source\\repos\\foundersqueaker\\fargoaltmusicmod\\altmusicsceneeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|solutionrelative:altmusicsceneeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|c:\\users\\tiger\\source\\repos\\foundersqueaker\\fargoaltmusicmod\\fargoaltmusicmod.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|solutionrelative:fargoaltmusicmod.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|c:\\users\\tiger\\source\\repos\\foundersqueaker\\fargoaltmusicmod\\build.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|solutionrelative:build.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|c:\\users\\tiger\\source\\repos\\foundersqueaker\\fargoaltmusicmod\\description.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|solutionrelative:description.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|c:\\users\\tiger\\source\\repos\\foundersqueaker\\fargoaltmusicmod\\localization\\en-us_mods.fargoaltmusicmod.hjson||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|solutionrelative:localization\\en-us_mods.fargoaltmusicmod.hjson||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|c:\\users\\tiger\\source\\repos\\foundersqueaker\\fargoaltmusicmod\\musicconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,8 +15,20 @@
       "RelativeMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|solutionrelative:fargoaltmusicmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|c:\\users\\tiger\\source\\repos\\foundersqueaker\\fargoaltmusicmod\\localization\\en-us_mods.fargoaltmusicmod.hjson||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|solutionrelative:localization\\en-us_mods.fargoaltmusicmod.hjson||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|c:\\users\\tiger\\source\\repos\\foundersqueaker\\fargoaltmusicmod\\fargoaltmusicmod.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|solutionrelative:fargoaltmusicmod.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|c:\\users\\tiger\\source\\repos\\foundersqueaker\\fargoaltmusicmod\\altmusicsceneeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|solutionrelative:altmusicsceneeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|c:\\users\\tiger\\source\\repos\\foundersqueaker\\fargoaltmusicmod\\build.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|solutionrelative:build.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|c:\\users\\tiger\\source\\repos\\foundersqueaker\\fargoaltmusicmod\\description.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{591CE622-69BE-4B83-A3D7-4951FD811737}|FargoAltMusicMod.csproj|solutionrelative:description.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,12 +38,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 13,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -85,34 +81,63 @@
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "build.txt",
               "DocumentMoniker": "C:\\Users\\tiger\\source\\repos\\FounderSqueaker\\FargoAltMusicMod\\build.txt",
               "RelativeDocumentMoniker": "build.txt",
               "ToolTip": "C:\\Users\\tiger\\source\\repos\\FounderSqueaker\\FargoAltMusicMod\\build.txt",
               "RelativeToolTip": "build.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-08-07T02:16:27.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T02:16:27.266Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "AltMusicSceneEffect.cs",
               "DocumentMoniker": "C:\\Users\\tiger\\source\\repos\\FounderSqueaker\\FargoAltMusicMod\\AltMusicSceneEffect.cs",
               "RelativeDocumentMoniker": "AltMusicSceneEffect.cs",
               "ToolTip": "C:\\Users\\tiger\\source\\repos\\FounderSqueaker\\FargoAltMusicMod\\AltMusicSceneEffect.cs",
               "RelativeToolTip": "AltMusicSceneEffect.cs",
-              "ViewState": "AgIAAAUEAAAAAAAAAAAiwCEEAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAIIDAAAAAAAAAAAqwJgDAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2023-01-31T13:11:42.011Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "en-US_Mods.FargoAltMusicMod.hjson",
+              "DocumentMoniker": "C:\\Users\\tiger\\source\\repos\\FounderSqueaker\\FargoAltMusicMod\\Localization\\en-US_Mods.FargoAltMusicMod.hjson",
+              "RelativeDocumentMoniker": "Localization\\en-US_Mods.FargoAltMusicMod.hjson",
+              "ToolTip": "C:\\Users\\tiger\\source\\repos\\FounderSqueaker\\FargoAltMusicMod\\Localization\\en-US_Mods.FargoAltMusicMod.hjson",
+              "RelativeToolTip": "Localization\\en-US_Mods.FargoAltMusicMod.hjson",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAAABcBAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2023-11-01T02:04:24.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MusicConfig.cs",
+              "DocumentMoniker": "C:\\Users\\tiger\\source\\repos\\FounderSqueaker\\FargoAltMusicMod\\MusicConfig.cs",
+              "RelativeDocumentMoniker": "MusicConfig.cs",
+              "ToolTip": "C:\\Users\\tiger\\source\\repos\\FounderSqueaker\\FargoAltMusicMod\\MusicConfig.cs",
+              "RelativeToolTip": "MusicConfig.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAowFcAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-27T13:08:32.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "FargoAltMusicMod.csproj",
               "DocumentMoniker": "C:\\Users\\tiger\\source\\repos\\FounderSqueaker\\FargoAltMusicMod\\FargoAltMusicMod.csproj",
               "RelativeDocumentMoniker": "FargoAltMusicMod.csproj",
@@ -125,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "description.txt",
               "DocumentMoniker": "C:\\Users\\tiger\\source\\repos\\FounderSqueaker\\FargoAltMusicMod\\description.txt",
               "RelativeDocumentMoniker": "description.txt",
@@ -133,38 +158,11 @@
               "RelativeToolTip": "description.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2023-01-31T12:30:20.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-01-31T12:30:20.745Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "en-US_Mods.FargoAltMusicMod.hjson",
-              "DocumentMoniker": "C:\\Users\\tiger\\source\\repos\\FounderSqueaker\\FargoAltMusicMod\\Localization\\en-US_Mods.FargoAltMusicMod.hjson",
-              "RelativeDocumentMoniker": "Localization\\en-US_Mods.FargoAltMusicMod.hjson",
-              "ToolTip": "C:\\Users\\tiger\\source\\repos\\FounderSqueaker\\FargoAltMusicMod\\Localization\\en-US_Mods.FargoAltMusicMod.hjson",
-              "RelativeToolTip": "Localization\\en-US_Mods.FargoAltMusicMod.hjson",
-              "ViewState": "AgIAAAIAAAAAAAAAAADwvxYAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2023-11-01T02:04:24.918Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MusicConfig.cs",
-              "DocumentMoniker": "C:\\Users\\tiger\\source\\repos\\FounderSqueaker\\FargoAltMusicMod\\MusicConfig.cs",
-              "RelativeDocumentMoniker": "MusicConfig.cs",
-              "ToolTip": "C:\\Users\\tiger\\source\\repos\\FounderSqueaker\\FargoAltMusicMod\\MusicConfig.cs",
-              "RelativeToolTip": "MusicConfig.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAqwEQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-08-27T13:08:32.317Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "FargoAltMusicMod.cs",
               "DocumentMoniker": "C:\\Users\\tiger\\source\\repos\\FounderSqueaker\\FargoAltMusicMod\\FargoAltMusicMod.cs",
               "RelativeDocumentMoniker": "FargoAltMusicMod.cs",

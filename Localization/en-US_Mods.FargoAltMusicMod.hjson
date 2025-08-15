@@ -268,5 +268,15 @@ Configs: {
 			Label: Cultist
 			Tooltip: ""
 		}
+
+		Skeletron: {
+			Label: Skeletron
+			Tooltip: ""
+		}
+
+		DungeonGuardian: {
+			Label: Dungeon Guardian
+			Tooltip: ""
+		}
 	}
 }

@@ -16,13 +16,16 @@ namespace FargoAltMusicMod
 
         [Header("Bosses")]
 
+        [DefaultValue(false)]
+        public bool DungeonGuardian;
+
         [DefaultValue(true)]
         public bool KingSlime;
 
         [DefaultValue(true)]
         public bool EyeOfCthulhu;
 
-        [DefaultValue(true)]
+        [DefaultValue(false)]
         public bool CursedCoffin;
 
         [DefaultValue(true)]
@@ -33,6 +36,9 @@ namespace FargoAltMusicMod
 
         [DefaultValue(true)]
         public bool QueenBee;
+
+        [DefaultValue(false)]
+        public bool Skeletron;
 
         [DefaultValue(false)]
         public bool Deviantt;
@@ -78,8 +84,10 @@ namespace FargoAltMusicMod
         [DefaultValue(true)]
         public bool Golem;
 
-        [DefaultValue(true)]
-        public bool DukeFishron;
+        [DrawTicks]
+        [OptionStrings(["Default", "Deep Blue Combat", "Vengeance"])]
+        [DefaultValue("Deep Blue Combat")]
+        public string DukeFishron;
 
         [DrawTicks]
         [OptionStrings(["Default", "A Mother's Love", "Death of God's Will", "Border of Life" ])]
