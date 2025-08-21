@@ -873,7 +873,7 @@ namespace FargoAltMusicMod
         public override SceneEffectPriority Priority => SceneEffectPriority.BossHigh;
         public override bool Active(Player player)
         {
-            NPC npc = MusicUtils.FindClosestSoulsBoss("LifeChallenger");
+            NPC npc = MusicUtils.FindClosestSoulsBoss("Lifelight");
             if (npc != null && npc.active && npc.life < npc.lifeMax / 2)
             {
                 return true;
@@ -889,7 +889,7 @@ namespace FargoAltMusicMod
         public override bool Config => MusicConfig.Instance.Lieflight;
         public override bool Active(Player player)
         {
-            NPC npc = MusicUtils.FindClosestSoulsBoss("LifeChallenger");
+            NPC npc = MusicUtils.FindClosestSoulsBoss("Lifelight");
             if (npc != null && npc.active && npc.life >= npc.lifeMax / 2)
             {
                 return true;
@@ -1085,7 +1085,7 @@ namespace FargoAltMusicMod
         public override bool Active(Player player)
         {
             NPC npc = MusicUtils.FindClosestSoulsBoss("MutantBoss");
-            if (npc == null || player.dead || !npc.active)
+            if (npc == null || !npc.active)
             {
                 hasEnteredSecondPhase = false;
                 hasEnteredThirdPhase = false;
@@ -1246,26 +1246,7 @@ namespace FargoAltMusicMod
         public override bool Active(Player player)
         {
             NPC npc = MusicUtils.FindClosestBoss(NPCID.TheDestroyer);
-            if (MusicConfig.Instance.MechBosses == "Default")
-            {
-                return MusicUtils.FindClosestBoss(NPCID.TheDestroyer) != null;
-            }
-
-            else if (MusicConfig.Instance.MechBosses == "War Without Reason")
-            {
-                return MusicUtils.FindClosestBoss(NPCID.TheDestroyer) != null;
-            }
-
-            else if (MusicConfig.Instance.MechBosses == "Red Sun")
-            {
-                return MusicUtils.FindClosestBoss(NPCID.TheDestroyer) != null;
-            }
-
-            else if (MusicConfig.Instance.MechBosses == "Red Sun (Instrumental)")
-            {
-                return MusicUtils.FindClosestBoss(NPCID.TheDestroyer) != null;
-            }
-            else if (MusicConfig.Instance.MechBosses == "Technoir")
+            if (MusicConfig.Instance.Destroyer != "Sync With Mech Bosses")
             {
                 return MusicUtils.FindClosestBoss(NPCID.TheDestroyer) != null;
             }
@@ -1285,26 +1266,7 @@ namespace FargoAltMusicMod
         public override bool Config => MusicConfig.Instance.Twins != "Sync With Mech Bosses";
         public override bool Active(Player player)
         {
-            if (MusicConfig.Instance.MechBosses == "Default")
-            {
-                return MusicUtils.FindClosestBoss(NPCID.Retinazer) != null || MusicUtils.FindClosestBoss(NPCID.Spazmatism) != null;
-            }
-
-            else if (MusicConfig.Instance.MechBosses == "War Without Reason")
-            {
-                return MusicUtils.FindClosestBoss(NPCID.Retinazer) != null || MusicUtils.FindClosestBoss(NPCID.Spazmatism) != null;
-            }
-
-            else if (MusicConfig.Instance.MechBosses == "Red Sun")
-            {
-                return MusicUtils.FindClosestBoss(NPCID.Retinazer) != null || MusicUtils.FindClosestBoss(NPCID.Spazmatism) != null;
-            }
-
-            else if (MusicConfig.Instance.MechBosses == "Red Sun (Instrumental)")
-            {
-                return MusicUtils.FindClosestBoss(NPCID.Retinazer) != null || MusicUtils.FindClosestBoss(NPCID.Spazmatism) != null;
-            }
-            else if (MusicConfig.Instance.MechBosses == "Technoir")
+            if (MusicConfig.Instance.Twins != "Sync With Mech Bosses")
             {
                 return MusicUtils.FindClosestBoss(NPCID.Retinazer) != null || MusicUtils.FindClosestBoss(NPCID.Spazmatism) != null;
             }
@@ -1324,26 +1286,7 @@ namespace FargoAltMusicMod
         public override bool Config => MusicConfig.Instance.SkeletronPrime != "Sync With Mech Bosses";
         public override bool Active(Player player)
         {
-            if (MusicConfig.Instance.MechBosses == "Default")
-            {
-                return MusicUtils.FindClosestBoss(NPCID.SkeletronPrime) != null;
-            }
-
-            else if (MusicConfig.Instance.MechBosses == "War Without Reason")
-            {
-                return MusicUtils.FindClosestBoss(NPCID.SkeletronPrime) != null;
-            }
-
-            else if (MusicConfig.Instance.MechBosses == "Red Sun")
-            {
-                return MusicUtils.FindClosestBoss(NPCID.SkeletronPrime) != null;
-            }
-
-            else if (MusicConfig.Instance.MechBosses == "Red Sun (Instrumental)")
-            {
-                return MusicUtils.FindClosestBoss(NPCID.SkeletronPrime) != null;
-            }
-            else if (MusicConfig.Instance.MechBosses == "Technoir")
+            if (MusicConfig.Instance.SkeletronPrime != "Sync With Mech Bosses")
             {
                 return MusicUtils.FindClosestBoss(NPCID.SkeletronPrime) != null;
             }
