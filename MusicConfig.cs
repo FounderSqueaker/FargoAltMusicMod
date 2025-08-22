@@ -75,8 +75,22 @@ namespace FargoAltMusicMod
         [DefaultValue("GUARDIAN")]
         public string MoonLord;
 
-        [DefaultValue(false)]
-        public bool Eridanus;
+        [Expand(false)]
+        public EridanusConfig Champions;
+        public class EridanusConfig
+        {
+            [DefaultValue(false)]
+            public bool TimberChamp;
+
+            [DefaultValue(false)]
+            public bool DeathChamp;
+
+            [DefaultValue(false)]
+            public bool Eridanus3;
+
+            [DefaultValue(false)]
+            public bool Eridanus;
+        }
 
         [DrawTicks]
         [OptionStrings(["Default", "WAR", "Stigma"])]

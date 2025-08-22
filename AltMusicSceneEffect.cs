@@ -896,6 +896,38 @@ namespace FargoAltMusicMod
             return false;
         }
     }
+
+    class DeathKnife : MusicEffect
+    {
+        public override SceneEffectPriority Priority => SceneEffectPriority.BossMedium;
+        public override string MusicName => "BlackKnife";
+        public override bool Config => MusicConfig.Instance.Champions.DeathChamp;
+        public override bool Active(Player player)
+        {
+            NPC npc = MusicUtils.FindClosestSoulsBoss("ShadowChampion");
+            if (npc != null)
+            {
+                return true;
+            }
+            return false;
+        }
+    }
+    class TimberJimbo : MusicEffect
+    {
+        public override SceneEffectPriority Priority => SceneEffectPriority.BossMedium;
+        public override string MusicName => "HammerOfJustice";
+        public override bool Config => MusicConfig.Instance.Champions.TimberChamp;
+        public override bool Active(Player player)
+        {
+            NPC npc = MusicUtils.FindClosestSoulsBoss("TimberChampion");
+            if (npc != null)
+            {
+                return true;
+            }
+            return false;
+        }
+    }
+
     class Cultist : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossLow;
@@ -966,7 +998,7 @@ namespace FargoAltMusicMod
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossHigh;
         public override string MusicName => "TenebreRossoSangue";
-        public override bool Config => MusicConfig.Instance.Eridanus;
+        public override bool Config => MusicConfig.Instance.Champions.Eridanus;
         public override bool Active(Player player)
         {
             NPC npc = MusicUtils.FindClosestSoulsBoss("CosmosChampion");
@@ -1498,7 +1530,7 @@ namespace FargoAltMusicMod
         public override SceneEffectPriority Priority => SceneEffectPriority.BossMedium;
         public override string MusicName => MusicConfig.Instance.LunarPillars switch
         {
-            "Coalescence/con lentitud poderosa" => "Coalescence",
+            "Coalescence/con lentitud poderosa" => "ConLentitudPoderosa",
             "Crumbling Tower" => "titan_tower",
             _ => ""
         };
@@ -1592,7 +1624,7 @@ namespace FargoAltMusicMod
         public override bool Config => MusicConfig.Instance.Underground;
         public override bool Active(Player player)
         {
-            return ((player.ZoneNormalUnderground || player.ZoneNormalCaverns) || VanillaMusic.Current == MusicID.Underground);
+            return ((player.Center.Y / 16) > Main.worldSurface || VanillaMusic.Current == MusicID.Underground);
         }
     }
 

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "jh/jSO+dvPs=",
+  "dgSpecHash": "hWiN7dhorA4=",
   "success": true,
-  "projectFilePath": "D:\\OneDrive\\Dokument\\My Games\\Terraria\\tModLoader\\ModSources\\FargoAltMusicMod\\FargoAltMusicMod.csproj",
+  "projectFilePath": "C:\\Users\\tiger\\source\\repos\\FounderSqueaker\\FargoAltMusicMod\\FargoAltMusicMod.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jackl\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+    "C:\\Users\\tiger\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
   ],
   "logs": []
 }

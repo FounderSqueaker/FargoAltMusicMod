@@ -29,11 +29,6 @@ Configs: {
 			Tooltip: ""
 		}
 
-		ChampionOfShadow: {
-			Label: Champion of Shadow
-			Tooltip: ""
-		}
-
 		Golem: {
 			Label: Golem
 			Tooltip: ""
@@ -52,11 +47,6 @@ Configs: {
 		WallOfFlesh: {
 			Tooltip: ""
 			Label: Wall of Flesh
-		}
-
-		Eridanus: {
-			Label: Eridanus
-			Tooltip: ""
 		}
 
 		Abom: {
@@ -251,6 +241,40 @@ Configs: {
 
 		Cultist: {
 			Label: Lunatic Cultist
+			Tooltip: ""
+		}
+
+		Champions: {
+			Label: Champions
+			Tooltip: ""
+		}
+	}
+
+	EridanusConfig: {
+		Tooltip: ""
+
+		Eridanus: {
+			Label: Eridanus
+			Tooltip: ""
+		}
+
+		DeathChamp: {
+			Label: Champion of Death
+			Tooltip: ""
+		}
+
+		TimberChamp: {
+			Label: Champion of Timber
+			Tooltip: ""
+		}
+
+		Eridanus4: {
+			Label: Eridanus4
+			Tooltip: ""
+		}
+
+		Eridanus3: {
+			Label: Eridanus3
 			Tooltip: ""
 		}
 	}
