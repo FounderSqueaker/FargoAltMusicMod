@@ -873,7 +873,7 @@ namespace FargoAltMusicMod
         public override SceneEffectPriority Priority => SceneEffectPriority.BossHigh;
         public override bool Active(Player player)
         {
-            NPC npc = MusicUtils.FindClosestSoulsBoss("Lifelight");
+            NPC npc = MusicUtils.FindClosestSoulsBoss("LifeChallenger");
             if (npc != null && npc.active && npc.life < npc.lifeMax / 2)
             {
                 return true;
@@ -889,7 +889,7 @@ namespace FargoAltMusicMod
         public override bool Config => MusicConfig.Instance.Lieflight;
         public override bool Active(Player player)
         {
-            NPC npc = MusicUtils.FindClosestSoulsBoss("Lifelight");
+            NPC npc = MusicUtils.FindClosestSoulsBoss("LifeChallenger");
             if (npc != null && npc.active && npc.life >= npc.lifeMax / 2)
             {
                 return true;
@@ -1453,7 +1453,7 @@ namespace FargoAltMusicMod
     class MyCastleTown : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.Environment;
-        public override string MusicName => "MyCastleTown";
+        public override string MusicName => "Daisuke";
         public override bool Config => MusicConfig.Instance.Town;
         public override bool Active(Player player)
         {
@@ -1586,7 +1586,7 @@ namespace FargoAltMusicMod
     class Ocean : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BiomeLow;
-        public override string MusicName => "DeepBlueCalm";
+        public override string MusicName => "Around";
         public override bool Config => MusicConfig.Instance.Ocean;
         public override bool Active(Player player)
         {
